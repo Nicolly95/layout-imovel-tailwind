@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel de casa com Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="sm:mx-5 md:mx-8 lg:mx-10 xl:mx-12">
+    <div class="flex flex-col bg-gray-200 pb-3 rounded-md h-auto shadow-lg"> 
+
+        <div class="p-2 gap-2 grid grid-cols-2
+                    sm:grid sm:grid-cols-3 "> 
+
+            <div class="bg-[url(img/esp1.jpg)] w-full h-60 bg-cover bg-center shadow-md
+                        col-span-2
+                        sm:col-span-2 sm:row-span-2 sm:h-full">             
+            </div>
+
+            <div class="bg-[url(img/esp2.jpg)] w-full h-60  bg-cover bg-center shadow-md">             
+            </div>
+
+            <div class="bg-[url(img/esp3.jpg)] w-full h-60  bg-cover bg-center shadow-md ">               
+            </div>
+
+        </div>
+
+        <div class="pl-2 "> 
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">Casa luxuosa à venda</h2>
+            <div class="flex gap-2">
+                <div class="px-3 py-1 bg-green-800 rounded-full text-sm text-white">Campo</div>
+                <div class="px-3 py-1 bg-green-800 rounded-full text-sm text-white">Neoclássica</div>
+                <div class="px-3 py-1 bg-green-800 rounded-full text-sm text-white">Piscina</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
